@@ -3,7 +3,16 @@
 
 echo "hi"
 
-date=`date +%A`
+day=`date +%A`
 
 
-echo day is "$date"
+#echo day is "$date"
+
+if [ "$day" == "Monday" ];
+
+then
+
+	pwd
+else 
+	ls -a
+fi
